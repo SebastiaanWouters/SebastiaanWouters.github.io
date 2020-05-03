@@ -91,10 +91,28 @@ section {
     border: black solid 2px;
 }
 
+@media only screen and (min-width: 800px) {
+    .textimage {
+        width: 48%;
+        min-width: 200px;
+        border: black solid 2px;
+        margin-right: 1rem
+    }
+  }
+
 .textimageSmall {
     width: 40%;
     min-width: 200px;
     border: black solid 2px;
+}
+
+@media only screen and (min-width: 800px) {
+    .textimageSmall {
+        width: 40%;
+        min-width: 200px;
+        border: black solid 2px;
+        margin-right: 1rem
+    }
 }
 
 
