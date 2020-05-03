@@ -88,14 +88,12 @@ section {
 .textimage {
     width: 48%;
     min-width: 200px;
-    margin-right: 1rem;
     border: black solid 2px;
 }
 
 .textimageSmall {
     width: 40%;
     min-width: 200px;
-    margin-right: 1rem;
     border: black solid 2px;
 }
 
