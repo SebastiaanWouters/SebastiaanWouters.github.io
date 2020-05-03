@@ -93,12 +93,14 @@ section {
     width: 48%;
     min-width: 310px;
     margin-right: 1rem;
+    border: black solid 3px;
 }
 
 .textimageSmall {
     width: 40%;
     min-width: 250px;
     margin-right: 1rem;
+    border: black solid 3px;
 }
 
 
