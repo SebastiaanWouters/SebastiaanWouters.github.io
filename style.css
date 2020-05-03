@@ -7,6 +7,13 @@ body {
     
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+        background: rgb(255,123,8);
+        font-family: monospace;
+    }
+}
+
 a {
     text-decoration: none;
   }
@@ -20,7 +27,7 @@ a {
   }
   
   ul {
-    background: rgb(255,123,8);
+      background: rgb(255,123,8);
       list-style: none;
       margin: 0;
       padding-left: 0;
