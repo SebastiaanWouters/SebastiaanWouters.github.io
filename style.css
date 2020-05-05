@@ -1,18 +1,12 @@
 
 body {
-    background-image: url(./images/badgerbackground.png);
+    background: rgb(255,123,8);
     background-size: contain;
     background-repeat: repeat-y;
     font-family: monospace;
     
 }
 
-@media only screen and (max-width: 800px) {
-    body {
-        background: rgb(255,123,8);
-        font-family: monospace;
-    }
-}
 
 header a {
     text-decoration: none;
@@ -87,7 +81,7 @@ section {
 
 .container {
     width: 90%;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
     /*border: magenta solid 2px;*/
 }
@@ -135,6 +129,24 @@ section {
     }
 }
 
+.textimageExtraSmallNoBorder {
+    width: 12%;
+    min-width: 80px;
+}
+
+
+.videoresource {
+    margin-bottom: 1.7rem;
+    height: 365px;
+}
+
+@media only screen and (max-width: 700px) {
+    .videoresource {
+        margin-bottom: 1.5rem;
+        height: 225px;
+    }
+}
+
 
 #thirdspan {
     /*border: white solid 2px;*/
@@ -156,13 +168,14 @@ section {
     font-size:0.8rem;
 }
 
-h2{
-    margin: 1em 2em;
-    color: white;
-}
-
 .container h1 {
     font-size: 1.8rem;
+}
+
+.container h2 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: lightgray;
 }
 
 .pagetitle {
