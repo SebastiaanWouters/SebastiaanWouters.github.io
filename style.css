@@ -114,7 +114,7 @@ section {
 
 .container {
     width: 90%;
-    max-width: 950px;
+    max-width: 1000px;
     margin: 0 auto;
     /*border: magenta solid 2px;*/
 }
