@@ -118,6 +118,12 @@ section {
     font-size: 1.8rem;
 }
 
+.textimageBig {
+    width: 68%;
+    min-width: 250px;
+    border: black solid 2px;
+}
+
 .textimage {
     width: 48%;
     min-width: 200px;
