@@ -6,7 +6,7 @@ body {
     background-repeat: repeat-y;
     font-family: monospace;
     border: orange dashed 1px;
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
 @media only screen and (max-width: 650px) {
