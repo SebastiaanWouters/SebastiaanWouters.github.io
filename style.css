@@ -176,14 +176,14 @@ section {
   }
 
 .textimageSmall {
-    width: 40%;
+    width: 37%;
     min-width: 200px;
     border: orange solid 2px;
 }
 
 @media only screen and (min-width: 800px) {
     .textimageSmall {
-        width: 40%;
+        width: 37%;
         min-width: 200px;
         border: orange solid 2px;
         margin-right: 1rem
